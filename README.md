@@ -96,16 +96,9 @@ The system generates a file at `output/trend_analysis_report.csv`.
 
 **Format:**
 
-* 
-**Rows:** Discovered Topics (Issues, Requests, Feedback).
-
-
-* 
-**Columns:** Dates (Daily frequency counts).
-
-
-* 
-**Values:** Volume of reviews per topic per day.
+* **Rows:** Discovered Topics (Issues, Requests, Feedback).
+* **Columns:** Dates (Daily frequency counts).
+* **Values:** Volume of reviews per topic per day.
 
 
 
@@ -124,15 +117,7 @@ The system generates a file at `output/trend_analysis_report.csv`.
 
 | Requirement | Implementation Details |
 | --- | --- |
-| **Agentic Approach** | Uses LLM as a reasoning engine to maintain and update a dynamic taxonomy/ontology.
-
- |
-| **Deduplication** | The Agent is explicitly prompted to "Merge synonyms" before creating new categories.
-
- |
-| **Daily Batches** | The script sorts data by date and iterates day-by-day to build the trend history.
-
- |
-| **Output Format** | Generates the exact T-30 matrix structure requested in the assignment.
-
- |
+| **Agentic Approach** | Uses LLM as a reasoning engine to maintain and update a dynamic taxonomy/ontology.|
+| **Deduplication** | The Agent is explicitly prompted to "Merge synonyms" before creating new categories.|
+| **Daily Batches** | The script sorts data by date and iterates day-by-day to build the trend history.|
+| **Output Format** | Generates the exact T-30 matrix structure requested in the assignment.|
