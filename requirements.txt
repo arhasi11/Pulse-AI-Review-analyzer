@@ -1,0 +1,7 @@
+pandas
+numpy
+google-play-scraper
+sentence-transformers
+scikit-learn
+openai  # or google-generativeai
+tqdm
