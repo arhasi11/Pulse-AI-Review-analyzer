@@ -8,20 +8,16 @@ Unlike traditional clustering (LDA/TopicBERT), this project utilizes a **Hybrid 
 
 ## 🚀 Key Features
 
-* 
-**Agentic Topic Discovery:** Autonomously identifies new, evolving trends (e.g., "Bolt delivery request") without manual seed lists.
+* **Agentic Topic Discovery:** Autonomously identifies new, evolving trends (e.g., "Bolt delivery request") without manual seed lists.
 
 
-* 
-**Smart Deduplication:** Uses semantic reasoning to merge variations like *"Delivery guy rude"* and *"Delivery partner behaved badly"* into a single canonical topic.
+* **Smart Deduplication:** Uses semantic reasoning to merge variations like *"Delivery guy rude"* and *"Delivery partner behaved badly"* into a single canonical topic.
 
 
-* 
-**Daily Batch Simulation:** Processes data strictly in daily batches (June 2024 – Present) to simulate real-world data ingestion.
+* **Daily Batch Simulation:** Processes data strictly in daily batches (June 2024 – Present) to simulate real-world data ingestion.
 
 
-* 
-**High-Performance "Turbo" Mode:** Implements a "Vector-First, Agent-Fallback" architecture to minimize API costs and latency while maintaining high recall.
+* **High-Performance "Turbo" Mode:** Implements a "Vector-First, Agent-Fallback" architecture to minimize API costs and latency while maintaining high recall.
 
 
 
